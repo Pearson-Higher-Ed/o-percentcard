@@ -1,0 +1,24 @@
+{
+    "description": "Card for displaying percentage text",
+    "origamiType": "module",
+    "origamiVersion": 1,
+    "support": "https://github.com/Pearson-Higher-Ed/o-percentcard/issues",
+    "supportStatus": "experimental",
+    "browserFeatures": {
+        "required": [
+            "classlist"
+        ]
+    },
+    "demos": [
+        {
+            "path": "/demos/Basic.html",
+            "expanded": true,
+            "description": "Showing basic usage of the percent card"
+        },
+        {
+            "path": "/demos/Multiple.html",
+            "expanded": true,
+            "description": "Showing multiple colors of the percent card"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "o-percentcard",
+  "version": "0.0.1",
+  "authors": [
+    "Chen",
+    "Hung <Hung.Chen@Pearson.com>"
+  ],
+  "description": "Card for displaying percentage text",
+  "main": "[main.js, main.scss]",
+  "keywords": [
+    "cards",
+    "insights",
+    "percent",
+    "card"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

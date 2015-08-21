@@ -1,0 +1,24 @@
+{
+  "name": "PercentCardTest",
+  "version": "0.0.1",
+  "description": "Percent Card Test",
+  "main": "PercentCardTest.js",
+  "dependencies": {
+    "karma": "^0.12.31",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-webpack": "^1.5.0",
+    "mocha": "^2.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@devops-tools.pearson.com/aegis/cards-percent.git"
+  },
+  "keywords": [
+    "cards",
+    "percent",
+    "test"
+  ],
+  "author": "Rich Winn",
+  "license": "ISC"
+}
