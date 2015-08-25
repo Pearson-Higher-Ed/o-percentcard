@@ -6,7 +6,7 @@
     "Hung <Hung.Chen@Pearson.com>"
   ],
   "description": "Card for displaying percentage text",
-  "main": "[main.js, main.scss]",
+  "main": ["main.js", "main.scss"],
   "keywords": [
     "cards",
     "insights",
