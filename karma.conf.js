@@ -4,13 +4,27 @@ module.exports = function (config) {
 	config.set({
 		browsers: [ "PhantomJS" ], //run in Chrome
 		singleRun: true, //just run once by default
-		frameworks: [ "mocha", "browserify"], //use the mocha test framework
+		frameworks: [ "mocha", "browserify", "commonjs"], //use the mocha test framework
 		files: [
-			"test/PercentCard.test.js", //just load this file
+			"src/**/*.js",
+			"test/*.test.js" //just load this file
 		],
 		preprocessors: {
-		  "test/**/*.js": [ "browserify" ]
+			"src/**/*.js": ["commonjs", "coverage"],
+		  	"test/**/*.test.js": [ "browserify" ]
 		},
-		reporters: [ "dots" ] //report results in this format
+		// coverage reporter options
+		coverageReporter: {
+			type:"html",
+			dir:"coverage"
+		},
+		// browserify preprocessor options
+		browserify: {
+			debug: true,
+			transform: ["debowerify", require("browserify-istanbul")({
+				ignore: ["node_modules/**", "test/**"]
+			})]
+		},
+		reporters: [ "coverage", "dots" ] //report results in this format
 	});
 };
