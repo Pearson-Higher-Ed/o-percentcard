@@ -1,10 +1,10 @@
 # Percent Card
 
-A simple card which displays a header, a percent, and a footer.  
+A simple card which displays a header, a percent, and a footer.
 
 ## Use
 
-To use, create a new instance of the card with a JSON configuration payload.  
+To use, create a new instance of the card with a JSON configuration payload.
 Next, use webpack to pull in the CSS and js. Simply calling the card directly with vanilla JS will not work.  See the demo for more info.
 
 The JSON paramaters are as follows:
@@ -35,22 +35,8 @@ This card works by building the card in a DOM node and then returning that node 
         targetElement.appendChild(cardInstance.getDomNode());
 	</script>
 
-Webpack is needed to bundle the js and to pull the CSS into the hosting web page. 
-Size should be set by styling the element the card is being appended to (cardDiv, in this example).
-
-## To Run Demo
-
-    cd ./demos/src
-	npm install css-loader style-loader
-	webpack
-Then open the demo page in a browser window, no server needed.
-
 ## To Run Tests
 From the repository root:
 
     npm install
-	cd ./test/PercentCard
-	webpack
-	webpack-dev-server
-	
-browse to: http://localhost:8080/webpack-dev-server/testBundle
+	./node_modules/karma/bin/karma start
