@@ -10,7 +10,7 @@ module.exports = {
 		},
 		{
 			"name": "Multiple",
-			"template": "demos/src/basic.mustache",
+			"template": "demos/src/multiple.mustache",
 			"js": "demos/src/multiple.js"
 		}
 	]

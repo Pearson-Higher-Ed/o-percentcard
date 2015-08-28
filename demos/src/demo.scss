@@ -1,6 +1,20 @@
+$o-card-margintop: 0px;
+
 @import "../../main";
 
-.cardlayout {
-	height: 90px;
-	width: 80px;
+.cardsmall {
+	float: left;
+	width: 100px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.cardmedium {
+	float: left;
+	width: 200px;
+}
+
+.cardlarge {
+	float: left;
+	width: 400px;
 }

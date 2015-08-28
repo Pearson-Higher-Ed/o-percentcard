@@ -4,23 +4,25 @@ var PercentCard = require("../../main.js");
 
 
 var json = {
+		"size": "small",
 		"data":75,
 		"header":"Card Three Header",
 		"footer":"Card Three Footer"
 };
-var card3DomNode = new PercentCard(json).getDomNode();
-document.querySelector("#card").appendChild(card3DomNode);
+new PercentCard("#card1", json);
 
 var json = {
+		"size": "small",
 		"data":65,
 		"header":"Card Four Header",
 		"footer":"Card Four Footer"
 };
-document.querySelector("#card").appendChild(new PercentCard(json).getDomNode());
+new PercentCard("#card2", json);
 
 var json = {
+		"size": "small",
 		"data":55,
 		"header":"Card Five Header",
 		"footer":"Card Five Footer"
 };
-document.querySelector("#card").appendChild(new PercentCard(json).getDomNode());
+new PercentCard("#card3", json);

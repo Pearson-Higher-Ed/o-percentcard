@@ -1,46 +1,46 @@
-.cardcontainer {
+.o-percentcard-container {
 	background: $background;
 	font-family: arial, sans-serif;
 	text-align: center;
 	height: 100%;
 	width: 100%;
 
-	.cardheader {
-		font-size: 0.5em;
+	.o-percentcard-container__cardheader {
+		font-size: $o-percentcard-header-fontsize;
 		padding: 5px 10px 0px;
 		margin: 0;
 	}
 
-	.cardfooter {
-		font-size: 0.5em;
+	.o-percentcard-container__cardfooter {
+		font-size: $o-percentcard-footer-fontsize;
 		font-weight: bold;
 	}
 
-	.cardpercent {
+	.o-percentcard-container__cardpercent {
 		padding: 5px;
-		font-size: 1.5em;
+		font-size: $o-percentcard-data-fontsize;
 		margin: 0;
 		font-weight: bold;
 
 	}
 
-	.agrade {
+	.o-perecentcard-container__agrade {
 		color: $agrade;
 	}
 
-	.bgrade {
+	.o-perecentcard-container__bgrade {
 		color: $bgrade;
 	}
 
-	.cgrade {
+	.o-perecentcard-container__cgrade {
 		color: $cgrade;
 	}
 
-	.dgrade {
+	.o-perecentcard-container__dgrade {
 		color: $dgrade;
 	}
 
-	.fgrade {
+	.o-perecentcard-container__fgrade {
 		color: $fgrade;
 	}
 }
