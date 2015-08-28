@@ -12,7 +12,7 @@ describe("Percent Card", function () {
 		dom = document.createElement("div");
 	});
 	describe("New Object Instance", function(){
-		it("Should create an element and assignt it to card", function() {
+		it("Should create a card and have 3 children nodes", function() {
 
 			var json = {
 				data: 10,
@@ -23,8 +23,8 @@ describe("Percent Card", function () {
 
 			var sut = new PercentCard(dom, json);
 			assert.equal(sut.card !== undefined, true);
-			console.log(sut.card.childNodes.length);
 			assert.equal(sut.card.childNodes.length === 3, true);//we should have 3 children nodes
+			assert.equal(sut.card.className.indexOf("o-card") > -1, true);
 		});
 	});
 });
