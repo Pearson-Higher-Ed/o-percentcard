@@ -2,13 +2,10 @@
 	background: $background;
 	font-family: arial, sans-serif;
 	text-align: center;
-	height: 100%;
-	width: 100%;
 
 	.o-percentcard-container__cardheader {
 		font-size: $o-percentcard-header-fontsize;
-		padding: 5px 10px 0px;
-		margin: 0;
+		padding: 5px;
 	}
 
 	.o-percentcard-container__cardfooter {

@@ -17,8 +17,7 @@ function PercentCard(element, params) {
 		return;
 	}
 
-	this.card = document.createElement("div");
-	this.card.className = "o-card o-card--" + params.size;
+
 
 	var header = document.createElement("p");
 	header.innerHTML = params.header;
@@ -45,13 +44,11 @@ function PercentCard(element, params) {
 	footer.innerHTML = params.footer;
 	footer.className = "o-percentcard-container__cardfooter";
 
-	var newNode = document.createElement("div");
-	newNode.appendChild(header);
-	newNode.appendChild(percent);
-	newNode.appendChild(footer);
-	newNode.className = "o-percentcard-container";
-
-	this.card.appendChild(newNode);
+	this.card = document.createElement("div");
+	this.card.appendChild(header);
+	this.card.appendChild(percent);
+	this.card.appendChild(footer);
+	this.card.className = "o-card o-card--" + params.size + " o-percentcard-container";
 
 	element.appendChild(this.card);
 }
