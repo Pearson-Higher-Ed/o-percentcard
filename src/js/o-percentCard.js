@@ -18,12 +18,11 @@ function PercentCard(element, params) {
 	}
 
 
-
-	var header = document.createElement("p");
+	var header = document.createElement("div");
 	header.innerHTML = params.header;
 	header.className = "o-percentcard-container__cardheader";
 
-	var percent = document.createElement("p");
+	var percent = document.createElement("div");
 	percent.innerHTML = params.data + "%";
 
 	var grade;
@@ -40,7 +39,7 @@ function PercentCard(element, params) {
 	}
 	percent.className = "o-percentcard-container__cardpercent o-perecentcard-container__" + grade.toLowerCase() + "grade";
 
-	var footer = document.createElement("p");
+	var footer = document.createElement("div");
 	footer.innerHTML = params.footer;
 	footer.className = "o-percentcard-container__cardfooter";
 

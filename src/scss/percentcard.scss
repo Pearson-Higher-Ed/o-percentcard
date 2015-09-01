@@ -16,7 +16,7 @@
 	.o-percentcard-container__cardpercent {
 		padding: 5px;
 		font-size: $o-percentcard-data-fontsize;
-		margin: 0;
+		margin: $o-percentcard-data-margin;
 		font-weight: bold;
 
 	}
