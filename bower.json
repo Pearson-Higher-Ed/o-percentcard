@@ -1,6 +1,6 @@
 {
   "name": "o-percentcard",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "authors": [
     "Chen",
     "Hung <Hung.Chen@Pearson.com>"
@@ -25,6 +25,6 @@
     "tests"
   ],
   "dependencies": {
-    "o-card": "^1.0.0"
+    "o-card": "^1.0.1"
   }
 }

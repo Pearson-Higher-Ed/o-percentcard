@@ -1,5 +1,5 @@
 /* jshint globalstrict: true */
-/* global require, describe, it */
+/* global require, describe, it, before */
 
 "use strict";
 

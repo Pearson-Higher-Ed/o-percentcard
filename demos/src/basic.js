@@ -9,4 +9,3 @@ var json = {
 		"footer":"Class Avg 79%"
 };
 new PercentCard("#card", json);
-

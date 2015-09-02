@@ -11,7 +11,7 @@ module.exports = function (config) {
 		],
 		preprocessors: {
 			"src/**/*.js": ["commonjs", "coverage"],
-		  	"test/**/*.test.js": [ "browserify" ]
+			"test/**/*.test.js": [ "browserify" ]
 		},
 		// coverage reporter options
 		coverageReporter: {
