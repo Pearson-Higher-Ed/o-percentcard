@@ -8,9 +8,3 @@ before_install:
 script:
 - obt test
 - obt verify
-notifications:
-  hipchat:
-    rooms:
-      secure: hQj9K0nOQ+eL5YCJ6biWGqk06yVAtt7x24jNYsjvxKWbGPO7sh+2kPphmkivSE/7ewsoFIfe+SkfoBWkOqlAKGBMx2tTPaWuqiRM40qbgY3OUjn/c/HIDJ8HBNtLXuDuXlmg+FXQUvWkCsx2BL0clM39fMr9LYxlOLHk7UWN4Tcrd0UYIcG05lFzBlN5ZKVoXaMSMrRYd/klKA4bpsiPCBckF0Xc9WPeF5WrfcVQJrwGFM9SxhQ0hKn4YxGoI1zwJa/7lInzfnNvczXE24doi032CrvY3EgT+pFzKtqfOv2ho6dS7FcJ9/4fqRpr7X38x0i72jPukKosnzdnRuIc9sKPyVWNOFyQkNeXaRLkTVeAQ6F9fipTVffcMZDUq2gopjzbgYkwMEqVWZ5uyjlVeaze0+wGjt2LnHZ/G+3tl3EST26QXspK2WM4sqzRBLzAIIGh/Gy0gUg3UL5D0mJ905cfMkyPoabCNs7PbABsnfQyZjpJz7yOdECla3ewb6R6Wh7nCUE0j1KTKddDNld7b/KYJbnyqexUDx6gl4b8XE5a+aOnrUkJzfuIZzmOOIFn7YikXxhDN5l7SvrTveEkDPRps37W5A2TKKaiSQkkDiSlLTBQo4D1bv9q7gr3aB/HHmDp1LHDeieO+MOWLUJtsCtp5iqgaWYpuIFL35z/NDk=
-    template:
-    - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}"

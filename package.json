@@ -4,6 +4,9 @@
   "description": "Percent Card Test",
   "main": "PercentCardTest.js",
   "dependencies": {},
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
   "devDependencies": {
     "browserify": "^11.0.1",
     "browserify-istanbul": "^0.2.1",

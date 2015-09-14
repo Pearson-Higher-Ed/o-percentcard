@@ -1,4 +1,4 @@
-# Percent Card
+# Percent Card [![Build Status](https://travis-ci.org/Pearson-Higher-Ed/o-percentcard.svg)](https://travis-ci.org/Pearson-Higher-Ed/o-percentcard)
 
 A simple card which displays a header, a percent, and a footer.
 
